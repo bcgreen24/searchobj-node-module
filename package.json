@@ -1,11 +1,20 @@
 {
   "name": "searchobj",
-  "version": "1.0.4",
-  "description": "A module for returning a key from an object.  It traverses the entire object. It returns the value associated with the key, not the key name.",
+  "version": "1.0.6",
+  "description": "A module for returning a key value from an object.  It traverses the entire object. It returns the value associated with the key, whether it's a string, object, or array.",
   "main": "index.js",
+  "repository": "bcgreen24/searchobj-node-module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bryan C. Green",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "searchobj",
+    "npm",
+    "package",
+    "json",
+    "key",
+    "search"
+  ]
 }
