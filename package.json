@@ -1,0 +1,11 @@
+{
+  "name": "searchobj",
+  "version": "1.0.4",
+  "description": "A module for returning a key from an object.  It traverses the entire object. It returns the value associated with the key, not the key name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan C. Green",
+  "license": "ISC"
+}
