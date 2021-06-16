@@ -4,36 +4,36 @@ A module for returning a key from an object.  It traverses the entire object. It
 
 For example, with this object as a source:
 
-{
-  'info':
-  {
-    'name': 'Joe Blow',
-    'address': '543 Main St',
-    'phone_numbers':
-    [
+    {
+      'info':
       {
-        'home': '555-555-4444'
-      },
-      {
-        'work': '555-444-3333'
+        'name': 'Joe Blow',
+        'address': '543 Main St',
+        'phone_numbers':
+        [
+          {
+            'home': '555-555-4444'
+          },
+          {
+            'work': '555-444-3333'
+          }
+        ]
       }
-    ]
-  }
-}
+    }
 
 searchobj(test, 'address') will return:
 
-543 Main St
+    543 Main St
 
 ...while searchobj(test, 'phone_numbers') will return:
 
-[ { home: '555-555-4444' }, { work: '555-444-3333' } ]
+    [ { home: '555-555-4444' }, { work: '555-444-3333' } ]
 
 Usage:
 
-const searchobj = require('searchobj')
-...
-conole.log(searchobj(<object to search>, <key to search for>));
+    const searchobj = require('searchobj')
+    ...
+    conole.log(searchobj(<object to search>, <key to search for>));
 
 
 
