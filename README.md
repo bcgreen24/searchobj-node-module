@@ -1,3 +1,5 @@
+https://img.shields.io/npm/v/searchobj
+
 # searchobj-node-module
 
 A module for returning a key from an object.  It traverses the entire object. It returns the value associated with the key, not the key name.
