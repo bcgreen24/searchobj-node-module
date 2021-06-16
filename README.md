@@ -21,11 +21,11 @@ For example, with this object as a source:
       }
     }
 
-searchobj(test, 'address') will return:
+`searchobj(test, 'address')` will return:
 
     543 Main St
 
-...while searchobj(test, 'phone_numbers') will return:
+...while `searchobj(test, 'phone_numbers')` will return:
 
     [ { home: '555-555-4444' }, { work: '555-444-3333' } ]
 
