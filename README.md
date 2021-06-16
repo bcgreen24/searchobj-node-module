@@ -1,6 +1,4 @@
-!(https://img.shields.io/npm/v/searchobj)
-
-
+![Version Badge](https://img.shields.io/npm/v/searchobj "Version Badge")
 
 
 # searchobj-node-module
