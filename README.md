@@ -3,7 +3,7 @@
 
 # searchobj-node-module
 
-A module for returning a key's value from a JSON object.  It traverses the entire object and returns the value associated with the key, whether it's a string, JSON object, or array.
+A module for returning a key's value from a JavaScript object.  It traverses the entire object and returns the value associated with the key, whether it's a string, JavaScript object, or array.
 
 For example, with this object as a source:
 
