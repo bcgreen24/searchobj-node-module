@@ -5,13 +5,13 @@
 
 A module for returning a key's value from a JavaScript object.  It traverses the entire object and returns the value associated with the key, whether it's a string, JavaScript object, or array.
 
-###Motivation
+### Motivation
 
 I was working on a personal project that involved consuming JSON files via an API, and had a need to grab the value of a particular key without knowing what the names of the keys higher in the tree were. 
 
 I was consuming multiple JSON files, each of which had a slightly different structure except for the key I was interested in, which always had the same name and whose value was always an array of objects. So-- I wrote a helper function to find the key in question, and then decided to release it as a Node module, hoping it may be of use to others.
 
-###How It Works
+### How It Works
 
 For example, with this object as a source:
 
@@ -44,7 +44,7 @@ For example, with this object as a source:
 
     [ { home: '555-555-4444' }, { work: '555-444-3333' } ]
 
-###Usage:
+### Usage:
 
     const searchobj = require('searchobj')
     ...
