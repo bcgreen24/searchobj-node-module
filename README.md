@@ -38,5 +38,5 @@ Usage:
     ...
     conole.log(searchobj(<object to search>, <key to search for>));
 
-
+To test, run `npm test`. You'll see the test object as well as the results of several queries against it.
 
