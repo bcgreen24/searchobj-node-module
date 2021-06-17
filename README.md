@@ -7,7 +7,7 @@ A module for returning a key from an object.  It traverses the entire object. It
 
 For example, with this object as a source:
 
-    {
+  let test = {
       'info':
       {
         'name': 'Joe Blow',
