@@ -7,22 +7,22 @@ A module for returning a key from an object.  It traverses the entire object. It
 
 For example, with this object as a source:
 
-  let test = {
-      'info':
-      {
-        'name': 'Joe Blow',
-        'address': '543 Main St',
-        'phone_numbers':
-        [
-          {
-            'home': '555-555-4444'
-          },
-          {
-            'work': '555-444-3333'
-          }
-        ]
+    let test = {
+        'info':
+        {
+          'name': 'Joe Blow',
+          'address': '543 Main St',
+          'phone_numbers':
+          [
+            {
+              'home': '555-555-4444'
+            },
+            {
+              'work': '555-444-3333'
+            }
+          ]
+        }
       }
-    }
 
 `searchobj(test, 'address')` will return:
 
